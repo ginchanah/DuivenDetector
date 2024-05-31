@@ -72,13 +72,16 @@
                 }
 
                 // Check if the probability of the "duif" class is greater than 80%
+
                 const duifPrediction = prediction.find((p) => p.className === "duif");
                 if (duifPrediction && duifPrediction.probability > 0.8) {
                 // Play a sound
-                const audio = new Audio("ping-82822.mp3"); // Sound Effect from <a href="https://pixabay.com/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=43757">Pixabay</a>
+                const audio = new Audio("data/aggressive-scary-trap-139136.mp3"); // Music by <a href="https://pixabay.com/users/alex_kizenkov-33612407/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=139136">Alex_Kizenkov</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=139136">Pixabay</a>
+            
                 audio.play();
-                // code from: https://www.blackbox.ai/share/4d1d9a4d-536f-466b-bf72-65a2ede1e4b8
                 }
+                // code from: https://www.blackbox.ai/share/4d1d9a4d-536f-466b-bf72-65a2ede1e4b8
+                
             }
 
         </script>
