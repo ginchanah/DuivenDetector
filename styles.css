@@ -1,3 +1,20 @@
+body{
+    background-image: url(data/pigeon-747462_1280.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-color: bisque;
+    font-family: 'Montserrat', 'Arial', 'Open Sans';
+}
+
 h1 {
-    color: red;
+    color: blue;
+    text-align: center;
+}
+
+main {
+    display: inline-block;
+    margin-left: 40vw;
+    background-color: bisque;
+    padding: 2rem;
 }
